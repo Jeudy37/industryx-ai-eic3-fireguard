@@ -1,0 +1,1371 @@
+{
+  "summary": {
+    "pieces_processed": 10,
+    "success": 10,
+    "errors": 0,
+    "success_rate_pct": 100.0,
+    "per_bin": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "faults": 0,
+    "collisions": 0,
+    "min_arm_distance_m": 0.251,
+    "cycle_mean_s": 28.43,
+    "cycle_min_s": 16.72,
+    "cycle_max_s": 38.8,
+    "throughput_pieces_per_min": 4.16
+  },
+  "cycles": [
+    {
+      "piece_id": "piece_1",
+      "retries": 1,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.297,
+      "color": "red",
+      "shape": "cube",
+      "t_spawn": 1.0,
+      "expected_bin": "A",
+      "t_ready": 10.98,
+      "t_grasp_A": 16.72,
+      "t_transfer": 20.5,
+      "t_grasp_B": 25.06,
+      "t_binned": 27.7,
+      "sorted_bin": "A",
+      "cycle": 1,
+      "cycle_time_s": 16.72,
+      "total_time_s": 26.7
+    },
+    {
+      "piece_id": "piece_2",
+      "retries": 2,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cylinder",
+      "t_spawn": 9.02,
+      "expected_bin": "B",
+      "t_ready": 19.0,
+      "t_grasp_A": 24.52,
+      "t_transfer": 29.5,
+      "t_grasp_B": 45.9,
+      "t_binned": 49.56,
+      "sorted_bin": "B",
+      "cycle": 2,
+      "cycle_time_s": 30.56,
+      "total_time_s": 40.54
+    },
+    {
+      "piece_id": "piece_3",
+      "retries": 1,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "blue",
+      "shape": "cube",
+      "t_spawn": 17.04,
+      "expected_bin": "C",
+      "t_ready": 27.02,
+      "t_grasp_A": 33.52,
+      "t_transfer": 50.6,
+      "t_grasp_B": 61.1,
+      "t_binned": 65.82,
+      "sorted_bin": "C",
+      "cycle": 3,
+      "cycle_time_s": 38.8,
+      "total_time_s": 48.78
+    },
+    {
+      "piece_id": "piece_4",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.297,
+      "color": "red",
+      "shape": "cylinder",
+      "t_spawn": 25.06,
+      "expected_bin": "A",
+      "t_ready": 35.04,
+      "t_grasp_A": 54.58,
+      "t_transfer": 66.0,
+      "t_grasp_B": 70.86,
+      "t_binned": 73.5,
+      "sorted_bin": "A",
+      "cycle": 4,
+      "cycle_time_s": 38.46,
+      "total_time_s": 48.44
+    },
+    {
+      "piece_id": "piece_5",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cube",
+      "t_spawn": 33.06,
+      "expected_bin": "B",
+      "t_ready": 55.78,
+      "t_grasp_A": 70.08,
+      "t_transfer": 75.3,
+      "t_grasp_B": 79.86,
+      "t_binned": 83.54,
+      "sorted_bin": "B",
+      "cycle": 5,
+      "cycle_time_s": 27.76,
+      "total_time_s": 50.48
+    },
+    {
+      "piece_id": "piece_6",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "blue",
+      "shape": "cylinder",
+      "t_spawn": 41.06,
+      "expected_bin": "C",
+      "t_ready": 71.28,
+      "t_grasp_A": 79.32,
+      "t_transfer": 84.54,
+      "t_grasp_B": 89.1,
+      "t_binned": 93.84,
+      "sorted_bin": "C",
+      "cycle": 6,
+      "cycle_time_s": 22.56,
+      "total_time_s": 52.78
+    },
+    {
+      "piece_id": "piece_7",
+      "retries": 1,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.297,
+      "color": "red",
+      "shape": "cube",
+      "t_spawn": 49.06,
+      "expected_bin": "A",
+      "t_ready": 80.52,
+      "t_grasp_A": 92.4,
+      "t_transfer": 96.18,
+      "t_grasp_B": 100.74,
+      "t_binned": 103.38,
+      "sorted_bin": "A",
+      "cycle": 7,
+      "cycle_time_s": 22.86,
+      "total_time_s": 54.32
+    },
+    {
+      "piece_id": "piece_8",
+      "retries": 1,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cylinder",
+      "t_spawn": 57.06,
+      "expected_bin": "B",
+      "t_ready": 93.6,
+      "t_grasp_A": 100.2,
+      "t_transfer": 105.18,
+      "t_grasp_B": 115.62,
+      "t_binned": 119.3,
+      "sorted_bin": "B",
+      "cycle": 8,
+      "cycle_time_s": 25.7,
+      "total_time_s": 62.24
+    },
+    {
+      "piece_id": "piece_9",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "blue",
+      "shape": "cube",
+      "t_spawn": 65.06,
+      "expected_bin": "C",
+      "t_ready": 101.4,
+      "t_grasp_A": 109.2,
+      "t_transfer": 120.3,
+      "t_grasp_B": 124.86,
+      "t_binned": 129.6,
+      "sorted_bin": "C",
+      "cycle": 9,
+      "cycle_time_s": 28.2,
+      "total_time_s": 64.54
+    },
+    {
+      "piece_id": "piece_10",
+      "retries": 1,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.316,
+      "color": "red",
+      "shape": "cylinder",
+      "t_spawn": 73.08,
+      "expected_bin": "A",
+      "t_ready": 110.4,
+      "t_grasp_A": 124.32,
+      "t_transfer": 129.78,
+      "t_grasp_B": 140.46,
+      "t_binned": 143.08,
+      "sorted_bin": "A",
+      "cycle": 10,
+      "cycle_time_s": 32.68,
+      "total_time_s": 70.0
+    }
+  ],
+  "log": [
+    {
+      "t": 2.62,
+      "event": "cell_ready"
+    },
+    {
+      "t": 10.98,
+      "event": "ready",
+      "piece": "piece_1"
+    },
+    {
+      "t": 10.98,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 11.3,
+      "event": "classified",
+      "piece": "piece_1",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 12.86,
+      "event": "grasp_failed",
+      "piece": "piece_1",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 13.76,
+      "event": "retry",
+      "piece": "piece_1",
+      "attempt": 1
+    },
+    {
+      "t": 13.76,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 13.76,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 14.84,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 14.84,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 17.6,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 17.6,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 19.0,
+      "event": "ready",
+      "piece": "piece_2"
+    },
+    {
+      "t": 19.32,
+      "event": "classified",
+      "piece": "piece_2",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 21.32,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 21.32,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 22.16,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 22.64,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 22.64,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 25.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 25.88,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 25.88,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_1",
+      "bin": "A"
+    },
+    {
+      "t": 26.6,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 27.02,
+      "event": "ready",
+      "piece": "piece_3"
+    },
+    {
+      "t": 27.34,
+      "event": "classified",
+      "piece": "piece_3",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 28.52,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 28.52,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 29.84,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 30.32,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 30.32,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 31.16,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 31.64,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 31.64,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 34.06,
+      "event": "grasp_failed",
+      "piece": "piece_2",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 34.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 34.9,
+      "event": "retry",
+      "piece": "piece_2",
+      "attempt": 1
+    },
+    {
+      "t": 34.9,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 34.9,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 35.04,
+      "event": "ready",
+      "piece": "piece_4"
+    },
+    {
+      "t": 35.34,
+      "event": "classified",
+      "piece": "piece_4",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 37.1,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 37.1,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 40.0,
+      "event": "grasp_failed",
+      "piece": "piece_2",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 40.8,
+      "event": "retry",
+      "piece": "piece_2",
+      "attempt": 2
+    },
+    {
+      "t": 40.8,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 40.8,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 43.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 43.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 46.7,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 46.7,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_2",
+      "bin": "B"
+    },
+    {
+      "t": 47.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 50.4,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 50.4,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 51.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 51.4,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 51.7,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 52.3,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 52.7,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 52.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 55.2,
+      "event": "grasp_failed",
+      "piece": "piece_3",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 55.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 55.78,
+      "event": "ready",
+      "piece": "piece_5"
+    },
+    {
+      "t": 56.0,
+      "event": "retry",
+      "piece": "piece_3",
+      "attempt": 1
+    },
+    {
+      "t": 56.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 56.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 56.08,
+      "event": "classified",
+      "piece": "piece_5",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 58.2,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 58.2,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 61.9,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 61.9,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_3",
+      "bin": "C"
+    },
+    {
+      "t": 63.1,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 66.64,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 66.64,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 66.88,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 66.88,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 67.96,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 67.96,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 68.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 68.2,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 70.96,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 71.28,
+      "event": "ready",
+      "piece": "piece_6"
+    },
+    {
+      "t": 71.6,
+      "event": "classified",
+      "piece": "piece_6",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 71.68,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 71.68,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_4",
+      "bin": "A"
+    },
+    {
+      "t": 72.4,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 74.32,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 74.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 75.64,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 76.12,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 76.12,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 76.96,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 77.44,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 77.44,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 80.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 80.52,
+      "event": "ready",
+      "piece": "piece_7"
+    },
+    {
+      "t": 80.68,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 80.68,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_5",
+      "bin": "B"
+    },
+    {
+      "t": 80.84,
+      "event": "classified",
+      "piece": "piece_7",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 81.64,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 84.4,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 84.4,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 85.36,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 85.36,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 85.72,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 86.2,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 86.68,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 86.68,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 88.56,
+      "event": "grasp_failed",
+      "piece": "piece_7",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 89.44,
+      "event": "retry",
+      "piece": "piece_7",
+      "attempt": 1
+    },
+    {
+      "t": 89.44,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 89.44,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 89.92,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 89.92,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_6",
+      "bin": "C"
+    },
+    {
+      "t": 90.52,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 90.52,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 93.28,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 93.28,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 93.6,
+      "event": "ready",
+      "piece": "piece_8"
+    },
+    {
+      "t": 93.92,
+      "event": "classified",
+      "piece": "piece_8",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 94.6,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 94.6,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 95.92,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 97.0,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 97.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 97.84,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 98.32,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 98.32,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 101.08,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 101.4,
+      "event": "ready",
+      "piece": "piece_9"
+    },
+    {
+      "t": 101.56,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 101.56,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_7",
+      "bin": "A"
+    },
+    {
+      "t": 101.72,
+      "event": "classified",
+      "piece": "piece_9",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 102.28,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 104.2,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 104.2,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 105.52,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 106.0,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 106.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 106.84,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 107.32,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 107.32,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 109.74,
+      "event": "grasp_failed",
+      "piece": "piece_8",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 110.08,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 110.4,
+      "event": "ready",
+      "piece": "piece_10"
+    },
+    {
+      "t": 110.56,
+      "event": "retry",
+      "piece": "piece_8",
+      "attempt": 1
+    },
+    {
+      "t": 110.56,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 110.56,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 110.72,
+      "event": "classified",
+      "piece": "piece_10",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 112.72,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 112.72,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 116.44,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 116.44,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_8",
+      "bin": "B"
+    },
+    {
+      "t": 117.4,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 120.16,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 120.16,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 121.12,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 121.12,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 121.48,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 121.96,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 122.44,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 122.44,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 125.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 125.68,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 125.68,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_9",
+      "bin": "C"
+    },
+    {
+      "t": 126.88,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 130.36,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 130.36,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 130.56,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 130.56,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 131.66,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 131.66,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 131.86,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 134.56,
+      "event": "grasp_failed",
+      "piece": "piece_10",
+      "reason": "échec de préhension injecté"
+    },
+    {
+      "t": 135.36,
+      "event": "retry",
+      "piece": "piece_10",
+      "attempt": 1
+    },
+    {
+      "t": 135.36,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 135.36,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 137.56,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 137.56,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 141.26,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 141.26,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_10",
+      "bin": "A"
+    },
+    {
+      "t": 143.86,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 143.86,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    }
+  ]
+}

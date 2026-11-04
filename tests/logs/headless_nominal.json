@@ -1,0 +1,1112 @@
+{
+  "summary": {
+    "pieces_processed": 10,
+    "success": 10,
+    "errors": 0,
+    "success_rate_pct": 100.0,
+    "per_bin": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "faults": 0,
+    "collisions": 0,
+    "min_arm_distance_m": 0.251,
+    "cycle_mean_s": 18.8,
+    "cycle_min_s": 12.88,
+    "cycle_max_s": 22.56,
+    "throughput_pieces_per_min": 5.51
+  },
+  "cycles": [
+    {
+      "piece_id": "piece_1",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.297,
+      "color": "red",
+      "shape": "cube",
+      "t_spawn": 1.0,
+      "expected_bin": "A",
+      "t_ready": 10.98,
+      "t_grasp_A": 12.86,
+      "t_transfer": 16.66,
+      "t_grasp_B": 21.22,
+      "t_binned": 23.86,
+      "sorted_bin": "A",
+      "cycle": 1,
+      "cycle_time_s": 12.88,
+      "total_time_s": 22.86
+    },
+    {
+      "piece_id": "piece_2",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cylinder",
+      "t_spawn": 9.02,
+      "expected_bin": "B",
+      "t_ready": 19.0,
+      "t_grasp_A": 20.88,
+      "t_transfer": 25.66,
+      "t_grasp_B": 30.22,
+      "t_binned": 33.9,
+      "sorted_bin": "B",
+      "cycle": 2,
+      "cycle_time_s": 14.9,
+      "total_time_s": 24.88
+    },
+    {
+      "piece_id": "piece_3",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.493,
+      "color": "blue",
+      "shape": "cube",
+      "t_spawn": 17.04,
+      "expected_bin": "C",
+      "t_ready": 27.02,
+      "t_grasp_A": 29.68,
+      "t_transfer": 34.9,
+      "t_grasp_B": 39.5,
+      "t_binned": 44.22,
+      "sorted_bin": "C",
+      "cycle": 3,
+      "cycle_time_s": 17.2,
+      "total_time_s": 27.18
+    },
+    {
+      "piece_id": "piece_4",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.289,
+      "color": "red",
+      "shape": "cylinder",
+      "t_spawn": 25.06,
+      "expected_bin": "A",
+      "t_ready": 35.04,
+      "t_grasp_A": 38.88,
+      "t_transfer": 44.4,
+      "t_grasp_B": 49.2,
+      "t_binned": 51.82,
+      "sorted_bin": "A",
+      "cycle": 4,
+      "cycle_time_s": 16.78,
+      "total_time_s": 26.76
+    },
+    {
+      "piece_id": "piece_5",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cube",
+      "t_spawn": 33.06,
+      "expected_bin": "B",
+      "t_ready": 43.04,
+      "t_grasp_A": 48.38,
+      "t_transfer": 53.6,
+      "t_grasp_B": 58.2,
+      "t_binned": 61.86,
+      "sorted_bin": "B",
+      "cycle": 5,
+      "cycle_time_s": 18.82,
+      "total_time_s": 28.8
+    },
+    {
+      "piece_id": "piece_6",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "blue",
+      "shape": "cylinder",
+      "t_spawn": 41.06,
+      "expected_bin": "C",
+      "t_ready": 51.04,
+      "t_grasp_A": 57.58,
+      "t_transfer": 62.9,
+      "t_grasp_B": 67.5,
+      "t_binned": 72.24,
+      "sorted_bin": "C",
+      "cycle": 6,
+      "cycle_time_s": 21.2,
+      "total_time_s": 31.18
+    },
+    {
+      "piece_id": "piece_7",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.297,
+      "color": "red",
+      "shape": "cube",
+      "t_spawn": 49.06,
+      "expected_bin": "A",
+      "t_ready": 59.04,
+      "t_grasp_A": 66.84,
+      "t_transfer": 72.42,
+      "t_grasp_B": 77.22,
+      "t_binned": 79.86,
+      "sorted_bin": "A",
+      "cycle": 7,
+      "cycle_time_s": 20.82,
+      "total_time_s": 30.8
+    },
+    {
+      "piece_id": "piece_8",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "green",
+      "shape": "cylinder",
+      "t_spawn": 57.06,
+      "expected_bin": "B",
+      "t_ready": 68.04,
+      "t_grasp_A": 76.44,
+      "t_transfer": 81.66,
+      "t_grasp_B": 86.22,
+      "t_binned": 89.9,
+      "sorted_bin": "B",
+      "cycle": 8,
+      "cycle_time_s": 21.86,
+      "total_time_s": 32.84
+    },
+    {
+      "piece_id": "piece_9",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.251,
+      "color": "blue",
+      "shape": "cube",
+      "t_spawn": 65.06,
+      "expected_bin": "C",
+      "t_ready": 77.64,
+      "t_grasp_A": 85.68,
+      "t_transfer": 90.9,
+      "t_grasp_B": 95.46,
+      "t_binned": 100.2,
+      "sorted_bin": "C",
+      "cycle": 9,
+      "cycle_time_s": 22.56,
+      "total_time_s": 35.14
+    },
+    {
+      "piece_id": "piece_10",
+      "retries": 0,
+      "classif_method": "attributs",
+      "result": "OK",
+      "min_arm_dist_m": 0.316,
+      "color": "red",
+      "shape": "cylinder",
+      "t_spawn": 73.08,
+      "expected_bin": "A",
+      "t_ready": 86.88,
+      "t_grasp_A": 94.92,
+      "t_transfer": 100.38,
+      "t_grasp_B": 105.18,
+      "t_binned": 107.82,
+      "sorted_bin": "A",
+      "cycle": 10,
+      "cycle_time_s": 20.94,
+      "total_time_s": 34.74
+    }
+  ],
+  "log": [
+    {
+      "t": 2.62,
+      "event": "cell_ready"
+    },
+    {
+      "t": 10.98,
+      "event": "ready",
+      "piece": "piece_1"
+    },
+    {
+      "t": 10.98,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 11.3,
+      "event": "classified",
+      "piece": "piece_1",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 13.76,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 13.76,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 17.48,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 17.48,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 18.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_1"
+    },
+    {
+      "t": 18.8,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 19.0,
+      "event": "ready",
+      "piece": "piece_2"
+    },
+    {
+      "t": 19.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 19.32,
+      "event": "classified",
+      "piece": "piece_2",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 21.68,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 22.04,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 22.04,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_1",
+      "bin": "A"
+    },
+    {
+      "t": 22.76,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 24.68,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 24.68,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 26.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 26.48,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 26.48,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 27.02,
+      "event": "ready",
+      "piece": "piece_3"
+    },
+    {
+      "t": 27.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_2"
+    },
+    {
+      "t": 27.34,
+      "event": "classified",
+      "piece": "piece_3",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 27.8,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 27.8,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 30.56,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 31.04,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 31.04,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_2",
+      "bin": "B"
+    },
+    {
+      "t": 32.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 34.7,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 34.7,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 35.04,
+      "event": "ready",
+      "piece": "piece_4"
+    },
+    {
+      "t": 35.34,
+      "event": "classified",
+      "piece": "piece_4",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 35.7,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 35.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 36.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 36.6,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_3"
+    },
+    {
+      "t": 37.0,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 37.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 39.7,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 40.3,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 40.3,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_3",
+      "bin": "C"
+    },
+    {
+      "t": 41.5,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 43.04,
+      "event": "ready",
+      "piece": "piece_5"
+    },
+    {
+      "t": 43.34,
+      "event": "classified",
+      "piece": "piece_5",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 45.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 45.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 45.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 45.2,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 46.3,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 46.3,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_4"
+    },
+    {
+      "t": 46.5,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 46.5,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 49.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 50.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 50.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_4",
+      "bin": "A"
+    },
+    {
+      "t": 50.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 51.04,
+      "event": "ready",
+      "piece": "piece_6"
+    },
+    {
+      "t": 51.34,
+      "event": "classified",
+      "piece": "piece_6",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 52.6,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 52.6,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 53.9,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 54.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 54.4,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 55.3,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_5"
+    },
+    {
+      "t": 55.7,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 55.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 58.4,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 59.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 59.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_5",
+      "bin": "B"
+    },
+    {
+      "t": 59.04,
+      "event": "ready",
+      "piece": "piece_7"
+    },
+    {
+      "t": 59.34,
+      "event": "classified",
+      "piece": "piece_7",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 60.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 62.7,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 62.7,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 63.7,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 63.7,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 64.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 64.6,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_6"
+    },
+    {
+      "t": 64.96,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 64.96,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 67.72,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 68.04,
+      "event": "ready",
+      "piece": "piece_8"
+    },
+    {
+      "t": 68.32,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 68.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_6",
+      "bin": "C"
+    },
+    {
+      "t": 68.36,
+      "event": "classified",
+      "piece": "piece_8",
+      "bin": "B",
+      "method": "attributs"
+    },
+    {
+      "t": 69.52,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 73.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 73.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 73.24,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 73.24,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 74.32,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 74.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_7"
+    },
+    {
+      "t": 74.56,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 74.56,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 77.32,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 77.64,
+      "event": "ready",
+      "piece": "piece_9"
+    },
+    {
+      "t": 77.96,
+      "event": "classified",
+      "piece": "piece_9",
+      "bin": "C",
+      "method": "attributs"
+    },
+    {
+      "t": 78.04,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 78.04,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_7",
+      "bin": "A"
+    },
+    {
+      "t": 78.76,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 80.68,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 80.68,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 82.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 82.48,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 82.48,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 83.32,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_8"
+    },
+    {
+      "t": 83.8,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 83.8,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 86.56,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 86.88,
+      "event": "ready",
+      "piece": "piece_10"
+    },
+    {
+      "t": 87.04,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 87.04,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_8",
+      "bin": "B"
+    },
+    {
+      "t": 87.2,
+      "event": "classified",
+      "piece": "piece_10",
+      "bin": "A",
+      "method": "attributs"
+    },
+    {
+      "t": 88.0,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 90.76,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 90.76,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 91.72,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 91.72,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 92.08,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 92.56,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_9"
+    },
+    {
+      "t": 93.04,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 93.04,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PICK_BELT",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 95.8,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PICK_BELT"
+    },
+    {
+      "t": 96.28,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 96.28,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_9",
+      "bin": "C"
+    },
+    {
+      "t": 97.48,
+      "event": "command",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 100.96,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 100.96,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 101.2,
+      "event": "done",
+      "robot": "A",
+      "cmd": "PLACE_TRANSFER"
+    },
+    {
+      "t": 101.2,
+      "event": "command",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 102.28,
+      "event": "done",
+      "robot": "B",
+      "cmd": "HOME"
+    },
+    {
+      "t": 102.28,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER",
+      "piece_id": "piece_10"
+    },
+    {
+      "t": 102.52,
+      "event": "done",
+      "robot": "A",
+      "cmd": "HOME"
+    },
+    {
+      "t": 106.0,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PICK_TRANSFER"
+    },
+    {
+      "t": 106.0,
+      "event": "command",
+      "robot": "B",
+      "cmd": "PLACE_BIN",
+      "piece_id": "piece_10",
+      "bin": "A"
+    },
+    {
+      "t": 108.64,
+      "event": "done",
+      "robot": "B",
+      "cmd": "PLACE_BIN"
+    },
+    {
+      "t": 108.64,
+      "event": "command",
+      "robot": "B",
+      "cmd": "HOME"
+    }
+  ]
+}

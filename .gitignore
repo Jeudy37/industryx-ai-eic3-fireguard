@@ -1,0 +1,13 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.vscode/
+.idea/
+*.bag
+*.db3
+~/industry_x_logs/
+INDUSTRY_X_AI_GROUPE_12/

@@ -1,0 +1,29 @@
+# Paramètres des nœuds (surchargeables : ros2 launch industry_x_ai simulation.launch.py perception_mode:=opencv)
+conveyor_node:
+  ros__parameters:
+    total_pieces: 10          # nombre de pièces générées (10 = journal de 10 cycles)
+    spawn_period: 8.0         # s entre deux apparitions
+    randomize: false          # false = séquence déterministe 3 couleurs x 2 formes
+    seed: 1
+    grasp_failure_rate: 0.0   # >0 pour les tests de robustesse (pannes de préhension injectées)
+    pose_backend: auto        # auto | bridge | gz_cli | mock
+robot_a_node:
+  ros__parameters:
+    speed_scale: 1.0
+robot_b_node:
+  ros__parameters:
+    speed_scale: 1.0
+orchestrator_node:
+  ros__parameters:
+    cmd_timeout: 45.0
+    classify_timeout: 6.0
+    max_retries: 3
+perception_node:
+  ros__parameters:
+    mode: attributes          # attributes | opencv | compare
+    camera_timeout: 4.0
+    frames: 3
+supervision_node:
+  ros__parameters:
+    dashboard_port: 8080
+    log_dir: ""               # vide = ~/industry_x_logs

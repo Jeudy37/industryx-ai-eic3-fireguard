@@ -1,0 +1,16 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  tests-logique:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install numpy opencv-python-headless pytest
+      - name: Tests unitaires et de robustesse (sans ROS)
+        run: cd src/industry_x_ai && python -m pytest -v test
+      - name: Le monde SDF généré est à jour
+        run: |
+          python simulation/tools/generate_simulation.py
+          git diff --exit-code simulation/

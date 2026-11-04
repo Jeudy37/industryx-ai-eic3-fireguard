@@ -1,0 +1,11 @@
+cycle,piece_id,color,shape,expected_bin,sorted_bin,result,t_spawn,t_ready,t_grasp_A,t_transfer,t_grasp_B,t_binned,cycle_time_s,total_time_s,retries,classif_method,min_arm_dist_m
+1,piece_1,red,cube,A,A,OK,1.0,10.98,16.72,20.5,25.06,27.7,16.72,26.7,1,attributs,0.297
+2,piece_2,green,cylinder,B,B,OK,9.02,19.0,24.52,29.5,45.9,49.56,30.56,40.54,2,attributs,0.251
+3,piece_3,blue,cube,C,C,OK,17.04,27.02,33.52,50.6,61.1,65.82,38.8,48.78,1,attributs,0.251
+4,piece_4,red,cylinder,A,A,OK,25.06,35.04,54.58,66.0,70.86,73.5,38.46,48.44,0,attributs,0.297
+5,piece_5,green,cube,B,B,OK,33.06,55.78,70.08,75.3,79.86,83.54,27.76,50.48,0,attributs,0.251
+6,piece_6,blue,cylinder,C,C,OK,41.06,71.28,79.32,84.54,89.1,93.84,22.56,52.78,0,attributs,0.251
+7,piece_7,red,cube,A,A,OK,49.06,80.52,92.4,96.18,100.74,103.38,22.86,54.32,1,attributs,0.297
+8,piece_8,green,cylinder,B,B,OK,57.06,93.6,100.2,105.18,115.62,119.3,25.7,62.24,1,attributs,0.251
+9,piece_9,blue,cube,C,C,OK,65.06,101.4,109.2,120.3,124.86,129.6,28.2,64.54,0,attributs,0.251
+10,piece_10,red,cylinder,A,A,OK,73.08,110.4,124.32,129.78,140.46,143.08,32.68,70.0,1,attributs,0.316
